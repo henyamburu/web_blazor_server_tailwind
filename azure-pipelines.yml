@@ -11,6 +11,8 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+  project: "**/*.csproj"
+  buildPlatform: 'Any CPU'
 
 steps:
 - task: UseDotNet@2
