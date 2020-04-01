@@ -1,0 +1,7 @@
+<button class="px-3 py-2 rounded-md bg-blue-600 text-white"
+        @onclick="HandleClick">@Text</button>
+
+@code {
+	[Parameter] public Action HandleClick { get; set; } 
+	[Parameter] public string Text { get; set; } = "Button";
+}
