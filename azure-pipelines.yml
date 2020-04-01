@@ -11,7 +11,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  project: "**/*.csproj"
+  project: "**/WebBlazorServer.csproj"
   buildPlatform: 'Any CPU'
 
 steps:
